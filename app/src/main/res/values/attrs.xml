@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressRing">
+        <!--进度起始色-->
+        <attr name="pr_progress_start_color" format="color" />
+        <!--进度结束色-->
+        <attr name="pr_progress_end_color" format="color" />
+        <!--背景起始色-->
+        <attr name="pr_bg_start_color" format="color" />
+        <!--背景中间色-->
+        <attr name="pr_bg_mid_color" format="color" />
+        <!--背景结束色-->
+        <attr name="pr_bg_end_color" format="color" />
+        <!--进度值 介于0-100-->
+        <attr name="pr_progress" format="integer" />
+        <!--进度宽度-->
+        <attr name="pr_progress_width" format="dimension" />
+        <!--起始角度-->
+        <attr name="pr_start_angle" format="integer" />
+        <!--扫过的角度-->
+        <attr name="pr_sweep_angle" format="integer" />
+        <!--是否显示动画-->
+        <attr name="pr_show_anim" format="boolean" />
+    </declare-styleable>
+</resources>

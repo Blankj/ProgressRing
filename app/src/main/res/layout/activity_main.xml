@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+    android:gravity="center">
+
+    <com.blankj.progressring.ProgressRing
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        app:pr_bg_end_color="#00ffffff"
+        app:pr_bg_mid_color="#33ffffff"
+        app:pr_bg_start_color="#00ffffff"
+        app:pr_progress="80"
+        app:pr_progress_end_color="#D9B262"
+        app:pr_progress_start_color="#00ffffff"
+        app:pr_progress_width="8dp" />
+
+</LinearLayout>
